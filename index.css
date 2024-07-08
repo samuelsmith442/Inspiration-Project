@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#author {
+    text-align: right;
+    margin: 10px;
+}
+
+.quote-container {
+    text-align: center;
+    padding: 15px;
+    background: white;
+    width: 50%; /* Reduce the width of the container */
+    max-width: 500px; /* Set a maximum width for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+}
